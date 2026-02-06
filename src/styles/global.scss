@@ -16,11 +16,12 @@ a {
   font-family: "Inter", sans-serif;
   background-color: $main-bg;
   color: $main-color;
+  min-height: 100vh;
 }
 
 .container{
   display: flex;
-
+  min-height: 100vh;
 }
 
 .menuContainer{
@@ -36,4 +37,6 @@ a {
 .contentContainer{
   padding: 5px 20px;
   width: 100%;
+  flex: 1;
+  min-height: 100vh;
 }
